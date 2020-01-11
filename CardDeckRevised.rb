@@ -40,7 +40,7 @@ class Deck
     @cards.shift
   end  
 
-  def remaining
+  def remaining #The method helps determine how many cards are left at hand after a card is dealt.
     puts @cards.length
   end
 

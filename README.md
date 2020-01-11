@@ -16,10 +16,15 @@ Git
 GitHub
 
 
-## Creating and Running the application
+## Description of how the code was developed
 
-A class is defined as Card. We can put the data object and code related to a playing card within the class.
+A class is defined as Card. Inside the class Card, code related to a playing card are entered, these include the attr accessor, def initialize and def output_card methods. 
 
-## View the code in the link provided below
+The method attr_accessor :rank, :suit is defined first. The attr_accessor functions as a gettor and setor to allow users to get or change the values of the rank and suit.
+
+The method def initialize(rank, suit) is defined next. The initialize method, also known as a constructor, builds up characteristics of a card. The passed arguments, rank and suit, being the attributes/characteristic of each card created. Inside the initialize method rank and suit are stored in instance variables, @rank and @suit. This allow accessibility of the variables outside the initialize method.  
+
+
+## View the completed code in the link provided below
 
 [Card Deck_object Oriented Program](https://github.com/OwitiDessy/ObjectOrientedProgram/blob/master/CardDeckRevised.rb)
