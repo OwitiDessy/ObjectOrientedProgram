@@ -2,7 +2,7 @@
 
 Object oriented programing is used to develop a data representation of a deck of cards 
 
-![Deck of Cards in terminal window](/ObjectOrientedProgram/images/DeckofCardsTerminalscreenshot.png)
+![Deck of Cards in terminal window](/images/DeckofCardsTerminalscreenshot.png)
 
 
 ## Tools 
