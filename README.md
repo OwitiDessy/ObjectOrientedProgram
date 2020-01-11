@@ -16,7 +16,7 @@ Git
 GitHub
 
 
-## Description of how the code was developed
+## Description of how the code works
 
 A class is defined as Card. Inside the class Card, code related to a playing card are entered, these include the attr accessor, def initialize and def output_card methods. 
 
