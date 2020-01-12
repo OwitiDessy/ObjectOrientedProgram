@@ -10,7 +10,7 @@ class Card
     puts "#{@rank} of #{@suit}"
   end
 
-  #def self.random_card
+  #def self.random_card # use method if you want cards printed at random
    # Card.new(rand(10), [:spades, :diamonds, :hearts, :clubs].sample)
   #end
 end
@@ -32,9 +32,9 @@ class Deck
 
   end
 
-  def shuffle
-    @cards.shuffle!
-  end
+  #def shuffle #use method to shuffle cards
+    #@cards.shuffle!
+  #end
 
   def deal
     @cards.shift
